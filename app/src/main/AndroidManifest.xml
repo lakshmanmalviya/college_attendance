@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attendance">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Attendance">
+        <activity
+            android:name=".TeacherActivity.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherShowAllPresent"
+            android:exported="false" />
+        <activity
+            android:name=".StudentActivity.AllStudentFinalAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.UpdateSubjAsNew"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.UpdateSemAsNew"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherImmediate"
+            android:exported="false" />
+        <activity
+            android:name=".StudentActivity.StudentDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentActivity.StudentSeeAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherAuthentication"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherShowStudents"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherShowSubject"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.AddStudents"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherShowSem"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.AddSubject"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherAddSem"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherShowBranch"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.AddBranch"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherShowBatch"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherOps"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.TeacherShowCollege"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity.AddBatch"
+            android:exported="false" />
+        <activity
+            android:name=".DeveloperActivity.AllPageDeveloper"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

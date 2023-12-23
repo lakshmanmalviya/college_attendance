@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherActivity.TeacherAuthentication">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/teacherLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFA143"
+                android:text="Teacher Login"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/studentLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFA143"
+
+                android:text="Student Login as Teacher"
+                android:textAllCaps="false" />
+
+            <LinearLayout
+                android:id="@+id/studentTLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/studentPwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:ems="10"
+                    android:hint="Enter possword what teacher gave you"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/studentEnroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:ems="10"
+                    android:hint="Enter your enrollment number"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/studentSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/textColor"
+                    android:textAllCaps="false"
+                    android:text="Login"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/TLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+
+                    android:ems="10"
+                    android:hint="Enter the email id"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/possword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:ems="10"
+                    android:hint="Enter the possword"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/teacherSubName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:ems="10"
+                    android:hint="Enter the teacher's subject name"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/teacherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:ems="10"
+                    android:hint="Enter the name of the teacher"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/teacherDeptName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:ems="10"
+                    android:hint="Enter the name of the department"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/teacherEmpId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:ems="10"
+                    android:hint="Enter the Teacher employee id"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/teacherMobileNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F4511E"
+                    android:textColorHint="#3E3E3F"
+                    android:ems="10"
+                    android:hint="Enter the teacher mobile number"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#E7E3E3"
+
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:text="login"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

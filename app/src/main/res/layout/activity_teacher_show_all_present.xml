@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherActivity.TeacherShowAllPresent">
+
+    <TextView
+        android:id="@+id/todaysPresent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round"
+        android:fontFamily="sans-serif-light"
+        android:padding="3dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="3dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:text="Today's present students list"
+        android:textAlignment="center"
+        android:textColor="#F2F2F2"
+        android:textSize="24sp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/showPresentRec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

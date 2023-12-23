@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherActivity.SignUp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/singUpEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+
+                android:background="#F4511E"
+                android:ems="10"
+                android:hint="Enter the email id"
+                android:inputType="textPersonName"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#E7E3E3"
+                android:textColorHint="#3E3E3F"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/signUPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F4511E"
+                android:ems="10"
+                android:hint="Enter the possword"
+                android:inputType="textPersonName"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#E7E3E3"
+                android:textColorHint="#3E3E3F"
+
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/signupTeacherSubName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F4511E"
+                android:ems="10"
+                android:hint="Enter the teacher's subject name"
+                android:inputType="textPersonName"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#E7E3E3"
+                android:textColorHint="#3E3E3F"
+
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/signUpTeacherName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F4511E"
+                android:ems="10"
+                android:hint="Enter the name of the teacher"
+                android:inputType="textPersonName"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#E7E3E3"
+                android:textColorHint="#3E3E3F"
+
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/singUpTeacherDeptName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F4511E"
+                android:ems="10"
+                android:hint="Enter the name of the department"
+                android:inputType="textPersonName"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#E7E3E3"
+                android:textColorHint="#3E3E3F"
+
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/singUpTeacherEmpId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F4511E"
+                android:ems="10"
+                android:hint="Enter the Teacher employee id"
+                android:inputType="textPersonName"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#E7E3E3"
+                android:textColorHint="#3E3E3F"
+
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/signUpTeacherMobileNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F4511E"
+                android:ems="10"
+                android:hint="Enter the teacher mobile number"
+                android:inputType="textPersonName"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#E7E3E3"
+                android:textColorHint="#3E3E3F"
+
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/signUpSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Sign Up"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

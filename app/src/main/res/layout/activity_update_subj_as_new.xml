@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherActivity.UpdateSubjAsNew">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/developer8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="@drawable/text_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="You are updating | refreshing the existing subj. as new one \n Please be carefull about your oprations"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/subjName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:drawable/edit_text"
+                android:ems="40"
+                android:hint="Enter the name of the subj like Physics- 601,203"
+                android:inputType="textMultiLine|textPersonName"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#262626"
+                android:textColorHint="#797878"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/updateSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:backgroundTint="@color/textColor"
+                android:fontFamily="@font/baloo_bhai"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Update the subject"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

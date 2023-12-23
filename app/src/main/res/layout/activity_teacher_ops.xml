@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherActivity.TeacherOps">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:elevation="12dp"
+                android:persistentDrawingCache="animation"
+                android:textAlignment="center"
+                android:textDirection="firstStrong"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="#CFBEBE"
+                app:tabMode="scrollable"
+                app:tabPadding="5dp"
+                app:tabRippleColor="#E9EBE9"
+                app:tabSelectedTextColor="#EE03C7"
+                app:tabTextAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:tabTextColor="#012FFC"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+</LinearLayout>

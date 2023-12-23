@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.TeacherInsertOps">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tMarkAttendance"
+              android:textColor="@color/opsColor"
+                android:background="@drawable/ops_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="Mark attendance of students"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:id="@+id/studentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/immediateThing"
+                  android:textColor="@color/opsColor"
+                    android:background="@drawable/ops_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Set pwd and location "
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/createTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ops_design"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Create Teacher Id and Pwd"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/opsColor"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/logout"
+                  android:textColor="@color/opsColor"
+                    android:background="@drawable/ops_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Log out"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/noteForTeacher"
+                  android:textColor="@color/opsColor"
+                    android:background="@drawable/ops_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="5dp"
+                    android:text="***  Below Is the OneTime Activity . You Don't have to do daily. But even then you can do.Just click on this   ***"
+                    android:textSize="18sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <LinearLayout
+                    android:id="@+id/inseopsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ops_design"
+                        android:padding="10dp"
+                        android:text="@string/pathOfadd"
+                        android:textColor="@color/opsColor"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/authorityLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/TAddBatch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/ops_design"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:text="Add batch to the college"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="@color/opsColor"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/TAddBranch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/ops_design"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:text="Add branch to the batch"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="@color/opsColor"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/tAddSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/ops_design"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:text="Add semester to the branch"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="@color/opsColor"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/tAddSubject"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/ops_design"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:text="Add subject to the semester"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="@color/opsColor"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tAddStudent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ops_design"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:text="Add student to the subject"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="@color/opsColor"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

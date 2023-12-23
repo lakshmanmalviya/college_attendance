@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherActivity.AddBatch">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/developer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="@drawable/text_bg"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="You are adding a new batch"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:id="@+id/noticeLayout34323"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textVie232332w"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="We are performing the operation in the backend on the basis of these thing . Your formate must be matched to the hint. Eg. 2021-2024"
+                    android:textColor="#25D002" />
+
+                <ImageView
+                    android:id="@+id/image2323View"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/stat_sys_warning"
+                    app:tint="#FF0000" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tBatchName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:drawable/edit_text"
+                android:ems="40"
+                android:hint="Enter the batch (2020-2024) | year of the batch "
+                android:inputType="textMultiLine|textPersonName"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#252525"
+                android:textColorHint="#797878"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/tInsertBatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:backgroundTint="@color/textColor"
+                android:textAllCaps="false"
+                android:fontFamily="@font/baloo_bhai"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="click to add"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">College Attendance</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="attenNote">1.Is college open for today ?\n 2.If yes then only click !\n 3.Don\'t go back until attendance is finish.\n4.If you click on this then totalCollegeDay will be plus one.\n5.You must click before taking Attendance.\n6.If by any reason you went to back activity and  if you come again then don\'t click it again.</string>
+    <string name="pathOfadd"><b>Path to add</b>\n->1.Batch<b>\n|\n|\n</b>->2.Branch<b>\n|\n|\n</b>->3.Sem<b>\n|\n|\n</b>->4.Subj<b>\n|\n|\n</b>->5.Student</string>
+    <string name="note">We are performing the operation in the backend on the basis of these things . Your format must be matched to the given hint. And if you call one branch more than one name then seperate by space Eg. CSE,EXE,CE,CIVIL</string>
+    <string name="note2">We are performing the operation in the backend on the basis of these things . Your format must be matched to the given hint.</string>
+    <string name="note3">We are performing the operation in the backend on the basis of these things . Your format must be matched to the given hint. SubjecName - SubCode . Eg Machine learning - 601 </string>
+    <string name="note4">We are performing the operation in the backend on the basis of these things . Your format must be matched to the given hint.\n1. College Name eg. BIRT \n2. Batch | Session Last 4 characters eg. 2024 \n3.Branch Name eg. CSE \n4.Semester eg. 06 \n5.Subject Code eg.601 \n6.Your choiceable possword eg. 923*12
+    </string>
+    <string name="note5">We are performing the operation in the backend on the basis of these things . Your format must be matched to the given hint. Semester - number  Eg. Semester - 01,Semester-02 </string>
+</resources>

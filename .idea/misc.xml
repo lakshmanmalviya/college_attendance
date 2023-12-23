@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/drawable/best_bg.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/drawable/ops_design.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/drawable/round.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/drawable/student_bg.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/drawable/text_bg.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/drawable/toast_bg.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/drawable/white_bg.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/font/baloo_bhai.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_add_batch.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_add_branch.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_add_students.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_add_subject.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_all_page_developer.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_all_student_final_attendance.xml" value="0.1" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_check_student_location.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_splash.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_student_detail.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_student_see_attendance.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_tabbed.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_add_sem.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_authentication.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_immediate.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_ops.xml" value="0.1" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_show_all_present.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_show_batch.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_show_branch.xml" value="0.1" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_show_college.xml" value="0.1" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_show_sem.xml" value="0.1125" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_show_students.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_teacher_show_subject.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_temp.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_update_sem_as_new.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/activity_update_subj_as_new.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/all_single_row.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/batch_row.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/branch_row.xml" value="0.1" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/college_row.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/fragment_tabbed.xml" value="0.7333333333333334" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/fragment_teacher_delete_ops.xml" value="0.1125" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/fragment_teacher_insert_ops.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/fragment_teacher_update_ops.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/sem_row.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/st_student_row.xml" value="0.1" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/student_detail_row.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/student_row.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/sub_row.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/layout/toast_msg.xml" value="0.22" />
+        <entry key="..\:/Users/LAKSHMAN/AndroidStudioProjects/Attendance/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14947916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
